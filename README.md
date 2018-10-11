@@ -1,2 +1,2 @@
 # WC-Crypto
-This Repo contains my assignemnet codes in Web Club Cryptography Mentorship.
+This Repo contains my assignemnet codes from Web Club Cryptography Mentorship.
