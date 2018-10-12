@@ -2,9 +2,9 @@
 using namespace std;
 
 int main() {
-	//FILE * file = fopen("key", "r");
+	FILE * file = fopen("key", "r");
 	int key = 10;
-	//fscanf(file, "%d", &key);
+	fscanf(file, "%d", &key);
 
 	char c;
 	while(scanf("%c", &c)){
