@@ -14,8 +14,8 @@ int main() {
 			m = i;
 	}
 	int key = 26 - (m - ('e'-'a'))%26;
-	cout<<key;
-    for(int i = 0; i < 26; i++) 
+	cout<<key<<endl;
+    	for(int i = 0; i < 26; i++) 
 		cout<<char('a'+i)<<" : "<<freq[i]<<endl;
 	return 0;
 }
