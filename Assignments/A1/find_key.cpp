@@ -8,9 +8,6 @@ int main() {
 		for(auto c:s) { 
 			freq[c-'a']++;
 		}
-	}
-       	for(int i = 0; i < 26; i++) {
-		cout<<char('a'+i)<<" : "<<freq[i]<<endl;
 	}	
 	for(int i = 1; i < 26; i++) {
 		if(freq[m] < freq[i])
@@ -18,5 +15,7 @@ int main() {
 	}
 	int key = 26 - (m - ('e'-'a'))%26;
 	cout<<key;
+    for(int i = 0; i < 26; i++) 
+		cout<<char('a'+i)<<" : "<<freq[i]<<endl;
 	return 0;
 }
