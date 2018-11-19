@@ -7,6 +7,6 @@ IC.py computes the average Index of Coincidence for different periods of key len
 ![Bar Graph of computed values](IC.png)
 
 The values attain maximum at multiples of 6. So the possible key lengths are 6, 12, 18, 24, 30.  
-By using the chi squared statistic method(for period 6), we get the key to be DYBNMW.
+By using the chi squared statistic method(for period 6), we get the key to be DYBNMW. (by running chi.py)
 
 The decrypted file is in 'decrypt_vigenere_cipher'
